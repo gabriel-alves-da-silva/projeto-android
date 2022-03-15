@@ -21,7 +21,7 @@
 
 --font-padrao: arial, verdana, helvetica, sans-serif;
 --font-destaque: 'Bebas Neue', cursive;
---font-andorid: 'android', cursive;
+--font-andorid: 'android', 'arial, verdana';
 }
 main a{
     color: black;
@@ -136,9 +136,9 @@ main h1 {
 
 }
 main h2{
-    font-weight: normal;
+    font-weight: bold;
     text-indent: 8px;
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: var(--cor4);
     font-family: var(--font-andorid);
     background-image: linear-gradient(to right, var(--cor2), transparent);
