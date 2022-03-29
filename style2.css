@@ -73,7 +73,7 @@ div.video > iframe{
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
-    min-height: 150px;
+    height: auto;
     text-align: center;
     padding-top: 40px;
 
@@ -101,6 +101,7 @@ main{
     background-color: white;
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     min-width: 320px;
     max-width: 1000px;
@@ -196,3 +197,12 @@ footer a:hover{
 li > abbr{
     text-decoration: none;
 }
+
+header {
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
