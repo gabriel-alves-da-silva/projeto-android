@@ -21,7 +21,7 @@
 
 --font-padrao: arial, verdana, helvetica, sans-serif;
 --font-destaque: 'Bebas Neue', cursive;
---font-andorid: 'android', 'arial, verdana';
+--font-andorid: 'android', cursive;
 }
 main a{
     color: black;
@@ -73,7 +73,7 @@ div.video > iframe{
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
-    height: auto;
+    min-height: 150px;
     text-align: center;
     padding-top: 40px;
 
@@ -101,7 +101,6 @@ main{
     background-color: white;
     padding: 20px;
     margin: auto;
-    margin-top: 20px;
     margin-bottom: 20px;
     min-width: 320px;
     max-width: 1000px;
@@ -137,9 +136,9 @@ main h1 {
 
 }
 main h2{
-    font-weight: bold;
+    font-weight: normal;
     text-indent: 8px;
-    font-size: 1.7em;
+    font-size: 1.3em;
     color: var(--cor4);
     font-family: var(--font-andorid);
     background-image: linear-gradient(to right, var(--cor2), transparent);
@@ -197,12 +196,3 @@ footer a:hover{
 li > abbr{
     text-decoration: none;
 }
-
-header {
-    background-color: #f1f1f1;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 3;
-}
-
