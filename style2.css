@@ -21,7 +21,7 @@
 
 --font-padrao: arial, verdana, helvetica, sans-serif;
 --font-destaque: 'Bebas Neue', cursive;
---font-andorid: 'android', cursive;
+--font-andorid: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 main a{
     color: black;
@@ -30,6 +30,7 @@ main a{
     text-decoration: none;
     background-color: var(--cor2);
     padding: 2px 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 main a:hover{
     color: var(--cor3);
@@ -84,7 +85,8 @@ header > h1{
     margin-bottom: 10px;
     color: white;
     font-family: var(--font-destaque);
-    font-size: 3em;
+    font-size: 5em;
+    font-variant: small-caps;
 
 }
 header > p{
@@ -109,7 +111,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 nav{
-    
+    font-variant: small-caps;
     background-color:var(--cor4);
     padding: 10px;
     text-shadow: 1px 2px 9px black;
@@ -196,6 +198,6 @@ footer a:hover{
 li > abbr{
     text-decoration: none;
 }
-#dan{
+.borda-redonda{
     border-radius: 20px;
 }
