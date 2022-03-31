@@ -196,3 +196,6 @@ footer a:hover{
 li > abbr{
     text-decoration: none;
 }
+#dan{
+    border-radius: 20px;
+}
