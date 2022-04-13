@@ -143,6 +143,7 @@ main h2{
     color: var(--cor4);
     font-family: var(--font-andorid);
     background-image: linear-gradient(to right, var(--cor2), transparent);
+    border-radius: 4px;
 }
  img{
     width: 100%;
