@@ -76,6 +76,7 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
+    
 
 }
 header > h1{
@@ -114,13 +115,14 @@ nav{
     background-color:var(--cor4);
     padding: 10px;
     text-shadow: 1px 2px 9px black;
+    margin-bottom: 20px;
 }
 nav > a{
     border-radius: 5px;
     color: white;
     text-decoration: none;
     padding: 10px;
-    transition-duration: .5s;
+    transition-duration: .3s;
 }
 nav > a:hover{
     
